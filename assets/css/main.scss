@@ -17,3 +17,21 @@
 
 // 5 - Import layout  styles
 @import '5-layout/index';
+
+@import 'partials/header';
+
+$black: #000;
+$white:#fff;
+$darkblue:#283149;
+$lightblue:#00818a
+
+@keyframes grow {
+    0%,
+    100% {
+      transform: scaleY(1);
+    }
+  
+    50% {
+      transform: scaleY(2);
+    }
+  };
